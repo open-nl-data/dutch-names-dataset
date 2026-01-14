@@ -24,7 +24,7 @@ The following transformations were applied:
 
 - **Capitalization normalization**
   - Identical names differing only by capitalization were merged with their respective counts summed.
-  - Final formatting follows standard Dutch name conventions (e.g. `van de Vries`).
+  - Final formatting follows standard Dutch name conventions (e.g. `van den Berg`).
 
 - **No semantic changes**
   - No names were added, removed, translated, or altered beyond normalization
@@ -35,9 +35,9 @@ The following transformations were applied:
 ### First Names
 ```json
 {
-  "Voornaam": "Maria",
-  "Mannen": 468188,
-  "Vrouwen": 1401382
+  "Voornaam": "Jan",
+  "Mannen": 376312,
+  "Vrouwen": 685
 }
 ```
 ### Surnames
