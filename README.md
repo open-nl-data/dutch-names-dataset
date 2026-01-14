@@ -23,10 +23,7 @@ The datasets in this repository are **not verbatim copies** of the original sour
 The following transformations were applied:
 
 - **Capitalization normalization**
-  - Identical names differing only by capitalization were merged.
-  - Examples:
-    - `Vries`, `de vries`, `De Vries` → `de Vries`
-    - `van de`, `Van De`, `van De` → `van de`
+  - Identical names differing only by capitalization were merged with their respective counts summed.
   - Final formatting follows standard Dutch name conventions (e.g. `van de Vries`).
 
 - **No semantic changes**
